@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 const LoginRegister = ({ setIsLogIn }) => {
   const [isSelectLogin, setIsSelectLogin] = useState(true);

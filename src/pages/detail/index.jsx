@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import CookingIcon from "../../assets/images/cooking.png";
 import ReactPlayer from "react-player";
 import { useParams } from "react-router";
-import { allDishes } from "../home/data";
+// import { allDishes } from "../home/data";
 import axios from "axios";
 
 const Datail = () => {
   let { id } = useParams();
-  const dish = allDishes[id];
+  // const dish = allDishes[id];
 
   const [data, setData] = React.useState([]);
 
-  const getMeal = () => {
+  useEffect(() => {
     axios
       .get(`http://localhost:5050/api/getMealById/${id}`)
       .then(function (res) {
@@ -24,12 +24,8 @@ const Datail = () => {
       .finally(function () {
         // always executed
       });
-  };
-
-  useEffect(() => {
     window.scrollTo(0, 0);
-    getMeal();
-  }, []);
+  }, [id]);
 
   return (
     <div className="p-6">

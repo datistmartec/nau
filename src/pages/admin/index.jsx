@@ -46,9 +46,9 @@ const Admin = () => {
     setIsOpenAddUpdate(true);
   };
 
-  const openDeleteModal = () => {
-    setIsOpenDelete(true);
-  };
+  // const openDeleteModal = () => {
+  //   setIsOpenDelete(true);
+  // };
 
   const closeModal = () => {
     setItemSelected(null);
@@ -210,12 +210,12 @@ const Admin = () => {
     }
   }, [itemSelected]);
 
-  useEffect(() => {
-    console.log(
-      'localStorage.getItem("isLoggedIn"): ',
-      localStorage.getItem("isLoggedIn")
-    );
-  }, [localStorage.getItem("isLoggedIn"), isLogIn]);
+  // useEffect(() => {
+  //   console.log(
+  //     'localStorage.getItem("isLoggedIn"): ',
+  //     localStorage.getItem("isLoggedIn")
+  //   );
+  // }, [localStorage.getItem("isLoggedIn"), isLogIn]);
 
   return (
     <div>
