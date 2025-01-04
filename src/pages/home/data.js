@@ -127,12 +127,13 @@ const allDishes = [
       "Tiếp đến bạn cho hành tỏi vào phi thơm rồi thêm 1 muỗng canh tương ớt vào đảo đều. Bạn cho từng miếng cá vào nồi, cuối cùng bạn cho nước dừa vào xăm xắp mặt cá và thêm 2 muỗng canh nước mắm, đầu hành và ớt vào. Bạn điều chỉnh lửa nhỏ rồi kho mở nắp khoảng 1 tiếng là hoàn thành.",
       "Món cá lóc kho tộ đậm đà hương vị, kết hợp với chút béo của mỡ và vị cay cay của tiêu ớt sẽ làm mâm cơm nhà bạn càng thêm ngon miệng.",
     ],
-    description: "Là một trong những món được người Việt yêu thích. Vì sự ngon miệng và chế biến không quá cầu kỳ. Vị đậm đà và thơm ngon của cá lóc đồng ăn kèm với cơm trắng thì không thể cưỡng lại.",
+    description:
+      "Là một trong những món được người Việt yêu thích. Vì sự ngon miệng và chế biến không quá cầu kỳ. Vị đậm đà và thơm ngon của cá lóc đồng ăn kèm với cơm trắng thì không thể cưỡng lại.",
     tutorialVd: "https://www.youtube.com/watch?v=2_aVN21Xz58",
     thumbnail:
       "https://khaihoanphuquoc.com.vn/wp-content/uploads/2023/05/thanh-pham.png",
     type: "Cá",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Gỏi Cuốn",
@@ -145,9 +146,10 @@ const allDishes = [
     ],
     description: "Món ăn vặt dễ làm, thích hợp cho bữa tiệc hay bữa ăn nhẹ.",
     tutorialVd: "https://www.youtube.com/watch?v=3mAwGlLSN0U",
-    thumbnail: "https://cdn.tgdd.vn/2021/08/CookProduct/z262692910475431f8fbc533ea57bff69e5e86a005e04a1200-1200x676.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/2021/08/CookProduct/z262692910475431f8fbc533ea57bff69e5e86a005e04a1200-1200x676.jpg",
     type: "Khác",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Canh Chua Cá",
@@ -160,9 +162,10 @@ const allDishes = [
     ],
     description: "Món canh chua thanh mát, ăn kèm với cơm rất ngon.",
     tutorialVd: "https://www.youtube.com/watch?v=jqISaQo4ltU",
-    thumbnail: "https://static-images.vnncdn.net/files/publish/2023/3/14/canh-ca-a-1024.jpg",
+    thumbnail:
+      "https://static-images.vnncdn.net/files/publish/2023/3/14/canh-ca-a-1024.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Nem Chua Rán",
@@ -175,9 +178,10 @@ const allDishes = [
     ],
     description: "Món ăn vặt hấp dẫn, giòn tan, thích hợp cho bất kỳ dịp nào.",
     tutorialVd: "https://www.youtube.com/watch?v=kpF636UOnfQ",
-    thumbnail: "https://doisun.com.vn/wp-content/uploads/2021/09/%C4%91%C4%A9a-nem-chua-r%C3%A1n-5-1.jpg",
+    thumbnail:
+      "https://doisun.com.vn/wp-content/uploads/2021/09/%C4%91%C4%A9a-nem-chua-r%C3%A1n-5-1.jpg",
     type: "Khác",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Salad Trái Cây",
@@ -191,9 +195,10 @@ const allDishes = [
     description:
       "Món salad trái cây tươi mát và ngọt ngào, rất tốt cho sức khỏe.",
     tutorialVd: "https://www.youtube.com/watch?v=wCCOvbBW8ik",
-    thumbnail: "https://quangon.vn/resources/2020/05/19/salad-trai-cay-sot-mayonnaise-13.jpg",
+    thumbnail:
+      "https://quangon.vn/resources/2020/05/19/salad-trai-cay-sot-mayonnaise-13.jpg",
     type: "Rau",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Nghêu Hấp Sả",
@@ -207,9 +212,10 @@ const allDishes = [
     description:
       "Món nghêu hấp thơm ngon, dễ làm và ăn kèm với cơm hoặc bánh mì.",
     tutorialVd: "https://www.youtube.com/watch?v=fyJ59Ypi3uk",
-    thumbnail: "https://www.cungcaphaisan.com/contents_cungcaphaisan/uploads/images/ngheu-hap-thai.jpg",
+    thumbnail:
+      "https://www.cungcaphaisan.com/contents_cungcaphaisan/uploads/images/ngheu-hap-thai.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Bánh Xèo",
@@ -223,9 +229,10 @@ const allDishes = [
     description:
       "Bánh xèo giòn rụm, hấp dẫn, thích hợp cho những bữa tiệc gia đình.",
     tutorialVd: "https://www.youtube.com/watch?v=8w0psAnY6nE",
-    thumbnail: "https://www.huongnghiepaau.com/wp-content/uploads/2017/02/cach-lam-banh-xeo-mien-trung.jpg",
+    thumbnail:
+      "https://www.huongnghiepaau.com/wp-content/uploads/2017/02/cach-lam-banh-xeo-mien-trung.jpg",
     type: "Khác",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Mực Xào Thập Cẩm",
@@ -238,10 +245,12 @@ const allDishes = [
     ],
     description:
       "Món ăn màu sắc, hấp dẫn, giàu dinh dưỡng, thích hợp ăn với cơm.",
-    tutorialVd: "https://www.youtube.com/watch?v=FPZIFdE8bdc&pp=ygUOI25nYW94w6BvbeG7sWM%3D",
-    thumbnail: "https://tiki.vn/blog/wp-content/uploads/2023/10/aFhxqqJ_Id6Yyby10-lNl1usO97f_u6k6p5VR35-zWQVLgh40db-AfPgmnT78JfDYET5BgU9LibB8p1a_wjp8kYeD7WJ4GlzMypp5TgoXERx3U107Jlyb1a8k9S1Uej9l7zFGy5WpmZHK9q6keEmDWI.jpg",
+    tutorialVd:
+      "https://www.youtube.com/watch?v=FPZIFdE8bdc&pp=ygUOI25nYW94w6BvbeG7sWM%3D",
+    thumbnail:
+      "https://tiki.vn/blog/wp-content/uploads/2023/10/aFhxqqJ_Id6Yyby10-lNl1usO97f_u6k6p5VR35-zWQVLgh40db-AfPgmnT78JfDYET5BgU9LibB8p1a_wjp8kYeD7WJ4GlzMypp5TgoXERx3U107Jlyb1a8k9S1Uej9l7zFGy5WpmZHK9q6keEmDWI.jpg",
     type: "Nước",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Cà Ri Gà",
@@ -254,9 +263,10 @@ const allDishes = [
     ],
     description: "Món cà ri gà thơm lừng, đậm đà hương vị, rất hấp dẫn.",
     tutorialVd: "https://www.youtube.com/watch?v=jm71sbbyRZw",
-    thumbnail: "https://cdn.tgdd.vn/Files/2017/12/01/1046601/cach-nau-ca-ri-ga-thom-ngon-an-hoai-khong-ngan-202201150925059979.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/Files/2017/12/01/1046601/cach-nau-ca-ri-ga-thom-ngon-an-hoai-khong-ngan-202201150925059979.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Thịt Kho Tàu",
@@ -270,9 +280,10 @@ const allDishes = [
     description:
       "Món thịt kho tàu đậm đà, thơm ngon, thích hợp cho bữa cơm gia đình.",
     tutorialVd: "https://www.youtube.com/watch?v=UCtPE0FJAfk",
-    thumbnail: "https://static-images.vnncdn.net/files/publish/2023/3/31/thit-kho-tau-2-183.jpg",
+    thumbnail:
+      "https://static-images.vnncdn.net/files/publish/2023/3/31/thit-kho-tau-2-183.jpg",
     type: "Thịt",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Bò Xào Cần Tây",
@@ -286,9 +297,10 @@ const allDishes = [
     description:
       "Món bò xào cần tây ngon miệng, giàu dinh dưỡng và rất dễ làm.",
     tutorialVd: "https://www.youtube.com/watch?v=j4DCNx7bo2s",
-    thumbnail: "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_10_19_638333145758789214_thit-bo-xao-can-tay-thumb.jpg",
+    thumbnail:
+      "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_10_19_638333145758789214_thit-bo-xao-can-tay-thumb.jpg",
     type: "Thịt",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Thịt Nướng Sa Tế",
@@ -300,10 +312,12 @@ const allDishes = [
     ],
     description:
       "Món thịt nướng sa tế cay cay, thơm ngon, rất thích hợp cho món ăn chính hoặc tiệc tùng.",
-    tutorialVd: "https://www.youtube.com/watch?v=Lc1lnbhQp0w&pp=ygUMI3NvdGh1Y2hpbWVu",
-    thumbnail: "https://bepxuyenviet.vn/wp-content/uploads/2022/11/thitbachinuongsate.jpg",
+    tutorialVd:
+      "https://www.youtube.com/watch?v=Lc1lnbhQp0w&pp=ygUMI3NvdGh1Y2hpbWVu",
+    thumbnail:
+      "https://bepxuyenviet.vn/wp-content/uploads/2022/11/thitbachinuongsate.jpg",
     type: "Thịt",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Chả Lụa",
@@ -318,7 +332,7 @@ const allDishes = [
     tutorialVd: "https://www.youtube.com/watch?v=40sN2_RlMao",
     thumbnail: "https://iwater.vn/Image/Picture/New/cha_lua.jpg",
     type: "Khác",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Gà Nướng Mắm",
@@ -332,9 +346,10 @@ const allDishes = [
     description:
       "Món gà nướng mắm thơm ngon, đậm đà và dễ làm, thích hợp cho bữa tiệc ngoài trời.",
     tutorialVd: "https://www.youtube.com/watch?v=V9c5aZ-4KtA",
-    thumbnail: "https://luquaygavit.com/wp-content/uploads/2023/07/ga-nuong-mam-nhi-ot.jpg",
+    thumbnail:
+      "https://luquaygavit.com/wp-content/uploads/2023/07/ga-nuong-mam-nhi-ot.jpg",
     type: "Thịt",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Canh Sườn Rib",
@@ -348,9 +363,10 @@ const allDishes = [
     description:
       "Món canh sườn rib nóng hổi, thơm ngon, rất thích hợp cho bữa cơm gia đình.",
     tutorialVd: "https://www.youtube.com/watch?v=TDg8ndUShOM",
-    thumbnail: "https://cdn.tgdd.vn/2021/03/CookProduct/canhsuonnausau-1200x676.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/2021/03/CookProduct/canhsuonnausau-1200x676.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Canh Bông Cải Nấu Thịt Bằm",
@@ -363,9 +379,10 @@ const allDishes = [
     description:
       "Canh bông cải nấu thịt bằm ngon, bổ dưỡng, dễ làm cho bữa ăn hàng ngày.",
     tutorialVd: "https://www.youtube.com/watch?v=Kajx9E0fBvk",
-    thumbnail: "https://monngonmoingay.com/wp-content/uploads/2015/08/canh-ga-nau-bong-cai-15an172.jpg",
+    thumbnail:
+      "https://monngonmoingay.com/wp-content/uploads/2015/08/canh-ga-nau-bong-cai-15an172.jpg",
     type: "Nước",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Canh Ngao Nấu Chua",
@@ -377,10 +394,12 @@ const allDishes = [
     ],
     description:
       "Món canh ngao nấu chua thanh mát, thích hợp cho những bữa ăn hè.",
-    tutorialVd: "https://www.youtube.com/watch?v=cKoMPbZfm7g&pp=ygURI2NhY2huYXVjYW5obmdoZXU%3D",
-    thumbnail: "https://pastaxi-manager.onepas.vn/content/uploads/articles/thanhhai/cach-nau-canh-ngao/cach-nau-canh-ngao-chua-7.jpg",
+    tutorialVd:
+      "https://www.youtube.com/watch?v=cKoMPbZfm7g&pp=ygURI2NhY2huYXVjYW5obmdoZXU%3D",
+    thumbnail:
+      "https://pastaxi-manager.onepas.vn/content/uploads/articles/thanhhai/cach-nau-canh-ngao/cach-nau-canh-ngao-chua-7.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Canh Tôm Nấu Mướp",
@@ -392,9 +411,10 @@ const allDishes = [
     ],
     description: "Canh tôm nấu mướp thanh mát, dễ làm và đầy đủ dinh dưỡng.",
     tutorialVd: "https://www.youtube.com/watch?v=bHGRRK4cwJk",
-    thumbnail: "https://cdn.tgdd.vn/Files/2020/05/10/1254662/cach-nau-mon-canh-muop-nau-tom-ngot-mat-cuc-don-gian-cho-ngay-cuoi-tuan-202005101336331871.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/Files/2020/05/10/1254662/cach-nau-mon-canh-muop-nau-tom-ngot-mat-cuc-don-gian-cho-ngay-cuoi-tuan-202005101336331871.jpg",
     type: "Nước",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Canh Khoai Môn Nấu Thịt",
@@ -407,9 +427,10 @@ const allDishes = [
     description:
       "Món canh khoai môn nấu thịt thơm ngon, đặc biệt cho những ngày se lạnh.",
     tutorialVd: "https://www.youtube.com/watch?v=UhGORMW4tV4",
-    thumbnail: "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_12_26_638392318673784595_canh-khoai-mon.jpg",
+    thumbnail:
+      "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_12_26_638392318673784595_canh-khoai-mon.jpg",
     type: "Nước",
-    rating: 4.5
+    rating: 4.5,
   },
   {
     name: "Cá Chiên Giòn",
@@ -423,9 +444,10 @@ const allDishes = [
     description:
       "Món cá chiên giòn bên ngoài giòn rụm, bên trong thơm ngon, dễ dàng chế biến.",
     tutorialVd: "https://www.youtube.com/watch?v=fViYo5F3Em4",
-    thumbnail: "https://cdn.tgdd.vn/Files/2022/07/02/1444104/cach-uop-ca-chien-vang-gion-dam-vi-don-gian-tai-nha-202207021449193308.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/Files/2022/07/02/1444104/cach-uop-ca-chien-vang-gion-dam-vi-don-gian-tai-nha-202207021449193308.jpg",
     type: "Cá",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Cá Hồi Nướng",
@@ -438,9 +460,10 @@ const allDishes = [
     ],
     description: "Món cá hồi nướng thơm lừng, giàu omega-3, tốt cho sức khỏe.",
     tutorialVd: "https://www.youtube.com/watch?v=_aJwiVsav1s",
-    thumbnail: "https://cdn.tgdd.vn/Files/2020/03/19/1243099/ca-hoi-nuong-bo-toi-thom-ngon-giau-duong-chat-lai-lam-cuc-de-dang-202201071104249814.jpg",
+    thumbnail:
+      "https://cdn.tgdd.vn/Files/2020/03/19/1243099/ca-hoi-nuong-bo-toi-thom-ngon-giau-duong-chat-lai-lam-cuc-de-dang-202201071104249814.jpg",
     type: "Cá",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Cá Ngừ Kẹp Mì",
@@ -454,9 +477,40 @@ const allDishes = [
     description:
       "Món cá ngừ kẹp mì thơm ngon, dễ làm, dành cho những bữa ăn nhanh.",
     tutorialVd: "https://www.youtube.com/watch?v=-BKlIeb0dxA",
-    thumbnail: "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/4/6/1031184/Image006-1604374102-.jpg",
+    thumbnail:
+      "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/4/6/1031184/Image006-1604374102-.jpg",
     type: "Cá",
-    rating: 5
+    rating: 5,
+  },
+  {
+    name: "Rau Muống Xào Tỏi",
+    tutorial: [
+      "Rau muống rửa sạch và cắt khúc.",
+      "Đun nóng chảo với dầu, cho tỏi băm vào phi thơm.",
+      "Thêm rau muống vào, xào nhanh tay trên lửa lớn.",
+      "Nêm với muối, tiêu cho vừa ăn và thưởng thức.",
+    ],
+    description:
+      "Rau muống xào tỏi là món ăn đơn giản, dễ làm, ngon miệng, mang lại hương vị đậm đà.",
+    tutorialVd: "https://www.youtube.com/watch?v=T_7LaR82EwA",
+    thumbnail: "https://example.com/rau_muong_xao_toi.jpg",
+    type: "Rau",
+    rating: 4.8,
+  },
+  {
+    name: "Súp Bông Cải",
+    tutorial: [
+      "Bông cải thái nhỏ, hành lách băm.",
+      "Đun sôi nước, cho bông cải vào nấu khoảng 10 phút.",
+      "Thêm hành lách và chút muối, tiêu.",
+      "Nấu thêm 5 phút, xay nhuyễn và thưởng thức.",
+    ],
+    description:
+      "Súp bông cải là món ăn nhẹ, bổ dưỡng, phù hợp cho bữa ăn gia đình.",
+    tutorialVd: "https://www.youtube.com/watch?v=1E4C9KEqK6w",
+    thumbnail: "https://example.com/sup_bong_cai.jpg",
+    type: "Rau",
+    rating: 4.6,
   },
 ];
 

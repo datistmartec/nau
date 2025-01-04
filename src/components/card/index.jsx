@@ -6,7 +6,14 @@ const Card = ({ item, bg, idx }) => {
   const navidate = useNavigate();
 
   return (
-    <div onClick={() => { navidate(`/detail/${idx}`) }} className={`min-w-[250px] h-[120px] ${bg ? bg : "bg-green-200"} rounded-md relative shadow-lg shadow-slate-300 hover:scale-105 duration-300 cursor-pointer`}>
+    <div
+      onClick={() => {
+        navidate(`/detail/${item?._id}`);
+      }}
+      className={`min-w-[250px] h-[120px] ${
+        bg ? bg : "bg-green-200"
+      } rounded-md relative shadow-lg shadow-slate-300 hover:scale-105 duration-300 cursor-pointer`}
+    >
       <div className="w-[86px] h-[86px] rounded-[43px] bg-slate-300 absolute top-[-15px] left-[-15px] shadow-lg shadow-slate-300">
         <img
           src={item.thumbnail}
